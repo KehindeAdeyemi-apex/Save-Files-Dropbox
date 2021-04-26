@@ -1,12 +1,12 @@
 # Save-Files-Dropbox
-This Oracle APEX Plugin allows users to save and upload files directly to Dropbox
+This Oracle APEX Plug-in allows users to save and upload files directly to Dropbox
 
 PRE-REQUISITES
 
 Ensure you have configured REST APIs for Dropbox account to retrieve access token for use in the Plugin. 
 Follow steps here - https://www.robot-hub.com/how-to-get-your-dropbox-api-access-token/#:~:text=%20How%20to%20Get%20Your%20Dropbox%20API%20Access,2%20STEP%202.%20Generate%20access%20token%20More%20
 
-Please make sure you enable sharing (permissions) in the Individual scopes section while registering your Dropbox app.
+Please make sure you enable read,write and sharing (permissions) in the Individual scopes section while registering your Dropbox app.
 If you intend to have the document embedded (as displayed in my sample app) ensure you enter the domain of your apex application in (Chooser / Saver / Embedder domains).
 
 PLUGIN INSTALLATION
